@@ -54,3 +54,16 @@ echo -e "\033[36mThis is cyan text\033[0m"
 - **Reset all:** `\033[0m`
 
 For more styles and background colors, see [ANSI escape code documentation](https://en.wikipedia.org/wiki/ANSI_escape_code).
+
+## Copy/paste ready
+
+### Python
+```py
+RED:str = "\033[31m"
+GREEN:str = "\033[32m"
+YELLOW:str = "\033[33m"
+BLUE:str = "\033[34m"
+MAGENTA:str = "\033[35m"
+CYAN:str = "\033[36m"
+RESET:str = "\033[0m"
+```
